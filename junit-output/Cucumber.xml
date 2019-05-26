@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="337.857139">
+    <testcase classname="Amazon test flow" name="Check the login functionality in Amazon" time="34.460787">
+        <system-out>
+            <![CDATA[Given Amazon website is successfully loaded in browser......................passed
+When User clicks on sign in button on homepage..............................passed
+Then User verifies that the login page is displayed.........................passed
+When User logins to the application by entering the username and password...passed
+Then User verifies that the amazon home page is displayed...................passed
+When User logs out of the application.......................................passed
+Then User verifies that logout should happen successfully...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon test flow" name="Select headphone and add to cart" time="84.391739">
+        <system-out>
+            <![CDATA[Given Amazon website is successfully loaded in browser......................passed
+When User clicks on sign in button on homepage..............................passed
+Then User verifies that the login page is displayed.........................passed
+When User logins to the application by entering the username and password...passed
+Then User verifies that the amazon home page is displayed...................passed
+When User selects the electronics section...................................passed
+And User select the desired headphone from electronics section..............passed
+Then User adds the desired headphone to cart................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon test flow" name="Search for macbook and add to cart" time="82.353136">
+        <system-out>
+            <![CDATA[Given Amazon website is successfully loaded in browser......................passed
+When User clicks on sign in button on homepage..............................passed
+Then User verifies that the login page is displayed.........................passed
+When User logins to the application by entering the username and password...passed
+Then User verifies that the amazon home page is displayed...................passed
+When User searches for "MacBook Pro" in home page...........................passed
+And User selects the desired product........................................passed
+Then User adds the desired product to cart..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon test flow" name="Select cart and remove headphone" time="58.09933">
+        <system-out>
+            <![CDATA[Given Amazon website is successfully loaded in browser......................passed
+When User clicks on sign in button on homepage..............................passed
+Then User verifies that the login page is displayed.........................passed
+When User logins to the application by entering the username and password...passed
+Then User verifies that the amazon home page is displayed...................passed
+When User selects the electronics section...................................passed
+And User select the desired headphone from electronics section..............passed
+And User selects cart from home page........................................passed
+Then User removes the added headphones from cart page.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon test flow" name="Reduce the quantity of Macbook Pro and proceed to checkout" time="78.552147">
+        <system-out>
+            <![CDATA[Given Amazon website is successfully loaded in browser......................passed
+When User clicks on sign in button on homepage..............................passed
+Then User verifies that the login page is displayed.........................passed
+When User logins to the application by entering the username and password...passed
+Then User verifies that the amazon home page is displayed...................passed
+When User searches for "MacBook Pro" in home page...........................passed
+And User selects the desired product........................................passed
+And User selects cart from home page........................................passed
+And user reduces the quantity of "MacBook Pro" to "1".......................passed
+Then User proceeds to checkout..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

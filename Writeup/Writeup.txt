@@ -1,0 +1,22 @@
+Tools Used
+
+1. Automation tool : Selenium
+2. Tech Stack Used : BDD/Cucumber
+
+The following implementations have been done in the code:
+
+1. I have used maven as a dependency resolver.
+2. I have implemented reporting through extent report.
+3. I have used Page Object Model as the design pattern.
+
+Code Walkthrough:
+
+1. Dependencies have been added and resolved through pom.xml file.
+2. Created a config.properties file in order to host the environment variables.
+3. Created a TestBase.java class in order to load the property file which hosts a initialization method to launch the browser and URL. This class acts as the parent of all other classes.
+4. Created separate page layer for each page in the application which consists of the WebElements/WebObjects and actions performed on them in the form of methods.
+5. The scenarios have been written in gherkin syntax in the feature file.
+6. The mapping of the scenarios have been done in step definition files. Separate step definition file exists for separate pages. Assertions have been written in step definition files.
+7. A runner class has been created to run the project consisting of various plugins including extent report.
+8. A TestUtils.java class have been created in order to host the important utilities like explicit waits, selecting values from dropdown etc.
+9. Test credentials to the amazon site can be found in config.properties file
